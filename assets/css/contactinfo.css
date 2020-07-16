@@ -7,39 +7,84 @@ body {
     background-attachment: fixed;
     position: relative;
 }
+
 .navbar {
     position: fixed;
     top:0;
     right:0;
     left:0;
 }
-.home {
-    float: right;
-    right: 0;
+
+.collapse {
+    margin-left: 1200px;
+
+
+
 }
+
+.nav-item {
+    font-size: 20px;
+    color: #4e14ec;
+    border:
+    transition: .5s;
+    margin-right: 20px;
+}
+
+.nav-item:hover {
+    background-color: royalblue;
+    font-size: 30px;
+    color: #4e14ec;
+    border: 3px solid;
+    transition: .5s;
+}
+
 header {
 	font-size: 85px;
 	text-align: center;
 	text-decoration: underline;
     margin-top: 100px;
+    margin-bottom: 50px;
     font-family: calibri;
 }
+
 .content {
 	background: black;
 	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
     background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
     background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	width: 80%;
-	padding:40px;
-	margin: 100px auto;
-	font-family: calibri;
+    width: 90%;
+    height: 53%;
+	padding: 40px;
+	margin: auto;
+    font-family: calibri;
+    transition: .5s;
 }
+
 h2 {
-	font-size: 40px;
-	color: white;
+	font-size: 45px;
+    color: white;
+    margin: auto;
+    transition: .5s;
 }
-a {
-    margin-right:50px;
-    margin-left: 50px;
-	float: right;
+
+.fas {
+    
+    color: red;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    font-size: 70px;
+    border: 2px solid  #fff;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.fab {
+  
+    color: red;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    font-size: 70px;
+    border: 2px solid #fff ;
+    border-radius: 50%;
+    transition: .5s;
 }

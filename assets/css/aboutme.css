@@ -13,33 +13,52 @@ body {
     right:0;
     left:0;
 }
-.home {
-    float: right;
-    right: 0;
+.collapse {
+    margin-left: 1200px;
+}
+.nav-item {
+    font-size: 20px;
+    color: #4e14ec;
+    border:
+    transition: .5s;
+    margin-right: 20px;
+
+}
+.nav-item:hover {
+    background-color: royalblue;
+    font-size: 30px;
+    color: #4e14ec;
+    border: 3px solid;
+    transition: .5s;
 }
 header {   
     font-size: 85px;
 	text-align: center;
 	text-decoration: underline;
     margin-top: 100px;
+    margin-bottom: 50px;
     font-family: calibri;
 }
-.content{
+.content {
 	background: black;
 	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
     background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
     background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	width: 50%;
+    width: 90%;
+    height: 60%;
 	padding: 40px;
-	margin: 100px auto;
+	margin: auto;
     font-family: calibri, cursive;
+    transition: .5s;
 }
 p {
 	text-align: justify;
 	text-decoration: none;
 	font-weight: none;
 	color: white;
-	text-indent: 100px;
-	font-size: 20px;
-	font-style: unset;
+	text-indent: 50px;
+	font-size: 22px;
+    font-style: ;
+    margin-top: 15px;
+    transition: .5s;
 }
