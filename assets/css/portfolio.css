@@ -8,17 +8,20 @@ body {
 
 
 .navbar {
-    height: 10vh;
-    position: relative;
+    width: 100%;
+    position: absolute;
+    top: 0;
     background-color: black;
 }
 
 .collapse {
+    position: relative;
     align-content: center;
     align-items: center;
+    background-color: black;
 }
 
-.nav-item, .nav-item-2 {
+.nav-item  {
     margin: 10px;
     border: 3px solid;
     border-radius: 50px 50px 50px 50px;
@@ -29,6 +32,19 @@ body {
     -moz-box-shadow: inset 0px 0px 20px -1px rgba(248, 8, 8, 0.91);
     box-shadow: inset 0px 0px 20px -1px rgba(248, 8, 8, 0.911);
 
+}
+
+.nav-item-2 {
+    float: right;
+    margin: 10px;
+    border: 3px solid;
+    border-radius: 50px 50px 50px 50px;
+    border-color: rgb(58, 56, 56);
+    transition: .5s;
+    color:  black;
+    -webkit-box-shadow: inset 0px 0px 20px -1px rgba(248, 8, 8, 0.91);
+    -moz-box-shadow: inset 0px 0px 20px -1px rgba(248, 8, 8, 0.91);
+    box-shadow: inset 0px 0px 20px -1px rgba(248, 8, 8, 0.911);
 }
 
 .nav-link {
@@ -50,12 +66,6 @@ body {
     box-shadow: 0px 0px 162px 4px rgba(250,0,0,0.74);
 }
 
-.nav-item-2 {
-    display: flex;
-    float: left;
-    margin-left: 1300px ;
-} 
-
 .row {
     margin-left: 30px;
     margin-right: 30px;
@@ -66,12 +76,12 @@ body {
     background-color: grey;
     border: 10px solid white;
     border-radius: 50px 50px 50px 50px;
+    margin-top: 150px;
     
 }
 .card-img-top {
     border-radius: 50px 50px 50px 50px;
     border: 10px solid black;
-    box-shadow: 0px 0px 100px 40px rgba(68, 61, 61, 0.7);
 }
 
 h5 {
