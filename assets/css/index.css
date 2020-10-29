@@ -239,8 +239,9 @@ h1 span:nth-child(12) {
         display: inline-block;
         animation: animate 1s linear forwards;
     }
-    
+       
 }
+
 @media (max-width: 380px) {
     video {
         width: 100vw;
@@ -250,7 +251,7 @@ h1 span:nth-child(12) {
     }
     h1 {
         margin: 0;
-        padding: 0;
+        padding: 8px;
         position: absolute;
         top: 51%;
         transform: translateY(-50%);
@@ -258,14 +259,30 @@ h1 span:nth-child(12) {
         text-align: center;
         justify-items: center;
         color: #ddd;  
-        font-size: 2.4em;
+        font-size: 2.3em;
         font-family: 'Rubik', sans-serif;
         letter-spacing : 0em;
         font-weight: bold;
         text-shadow: 5px 5px 1px #5f5b5b; 
     }
     .brand-title {
-        font-size: 24px;
-        margin: auto;
+        font-size: 23px;
+        margin: 0 0 0 0;
+    }
+    .toggle-button {
+        position: absolute;
+        top: 1rem;
+        right: .1rem;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+    }
+    .toggle-button .bar {
+        height: 2px;
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
     }
 }
+    
