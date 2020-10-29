@@ -175,7 +175,7 @@ h1 span:nth-child(12) {
 
     }
     .brand-title {
-        font-size: 25px;
+        font-size: 26px;
         margin: auto;
     }
     .navbar-links {
@@ -224,13 +224,13 @@ h1 span:nth-child(12) {
         position: absolute;
         top: 55%;
         transform: translateY(-50%);
-        width: 95vw;
+        width: 90vw;
         text-align: center;
         justify-items: center;
         color: #ddd;  
-        font-size: 2.5em;
+        font-size: 2.6em;
         font-family: 'Rubik', sans-serif;
-        letter-spacing : 0.1em;
+        letter-spacing : 0em;
         font-weight: bold;
         text-shadow: 5px 5px 1px #5f5b5b; 
     }
