@@ -241,3 +241,31 @@ h1 span:nth-child(12) {
     }
     
 }
+@media (max-width: 380px) {
+    video {
+        width: 100vw;
+        position: absolute;
+        top: 40%;
+        left: -30px;
+    }
+    h1 {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 51%;
+        transform: translateY(-50%);
+        width: 90vw;
+        text-align: center;
+        justify-items: center;
+        color: #ddd;  
+        font-size: 2.4em;
+        font-family: 'Rubik', sans-serif;
+        letter-spacing : 0em;
+        font-weight: bold;
+        text-shadow: 5px 5px 1px #5f5b5b; 
+    }
+    .brand-title {
+        font-size: 24px;
+        margin: auto;
+    }
+}
