@@ -321,7 +321,7 @@ h2:hover {
         transition: .5s;
         border-radius: 50px 50px 50px 50px;
         box-shadow: 0px 0px 10px 3px rgb(231, 5, 5);
-        margin: 70px 10px 70px 0;
+        margin: 70px 0 70px 30px;
     }
     .fas:hover {
         font-size: 45px;
@@ -340,7 +340,7 @@ h2:hover {
         transition: .5s;
         border-radius: 50px 50px 50px 50px;
         box-shadow: 0px 0px 10px 3px rgb(231, 5, 5);
-        margin: 70px 10px 70px 0;
+        margin: 70px 0 70px 30px;
     }
     .fab:hover {
         font-size: 45px;
