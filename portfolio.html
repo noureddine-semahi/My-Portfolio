@@ -19,24 +19,27 @@
 <body>
 
   <!--====================Start Navbar area======================-->
-  <nav class="navbar navbar-expand-md navbar-dark">
-    
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav navbar-nav navbar-right"> 
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+  <nav class="navbar">
+    <div class="brand-title">PORTFOLIO</div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li>
+          <a href="index.html">HOME</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="aboutme.html">ABOUT ME</a>
+        <li>
+          <a href="aboutme.html">ABOUT ME</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">CONTACT</a>
-        </li>
-        <li class="nav-item-2">
-          <a class="nav-link" href="index.html">HOME</a>
+        <li>
+          <a href="contact.html">CONTACT</a>
         </li>
       </ul>
     </div>
+  
   </nav>
   <!---=========End Header Area===========-->
 
@@ -68,7 +71,29 @@
           <img src="assets/images/Work Day Scheduler.gif" class="card-img-top" alt="...">
           <div class="card-body">
               <a class="card-title" href="https://noureddine-semahi.github.io/Work-Day-Scheduler/">The Work Day Scheduler</a>
-              <p class="card-text">The Work Day Scheduler is a simple planner that allows you to save events into your daily schedule and delete them as needed</p>
+              <p class="card-text">The Work Day Scheduler is a simple planner that allows you to save events into your daily schedule and delete them as needed.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3">
+    <div class="col mb-4">
+      <div class="card h-100">
+          <img src="assets/images/Subscrihub.gif" class="card-img-top">
+          <div class="card-body">
+              <a class="card-title" href="https://project2utcoding.herokuapp.com/">Subscription Hub</a>
+              <p class="card-text">This App lets you add, store, and track all you subscriptions which can allow you to manage them effeciently and set reminders to cancel any eventual trials.</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="col mb-4">
+      <div class="card h-100">
+          <img src="assets/images/Eat-Da-Burger.gif" class="card-img-top">
+          <div class="card-body">
+              <a class="card-title" href="https://powerful-crag-11905.herokuapp.com/">The Weather Dashboard</a>
+              <p class="card-text">The Weather Dashboard les you search for the weather in different locations, it saves the cities previously searched and lets you go back and revisit them later.</p>
           </div>
       </div>
     </div>
@@ -78,6 +103,7 @@
 
   <!--bootstrap js file-->
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
 
 </body>
 </html>
