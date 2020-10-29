@@ -92,24 +92,6 @@ a {
     -webkit-text-stroke-color: black;
 }
 
-
-.get {
-    color: black;
-    justify-items: center;
-    float: right;
-    margin-right: 700px;
-    font-size: 40px;
-    font-weight: bolder;
-    background-color: tomato;
-    border-radius: 30px 30px 30px 30px;
-    border: 2px solid orange;
-    -webkit-text-fill-color: black; 
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
-}
-.get:hover {
-    text-decoration: unset;
-}
 .content {
     background-color: black;
     border: 10px solid;
@@ -117,14 +99,13 @@ a {
     -moz-box-shadow: 20px 20px 50px 10px rgba(248, 1, 1, 0.7);
     box-shadow: 0px 0px 100px 10px rgba(248, 1, 1, 0.7);
     width: 90%;
-    height: 80%;
-	padding: 10px;
-	margin: 100px auto;
+    height: 85vh;
+	padding: 5px;
+	margin: 120px auto;
     font-family: calibri;
     transition: .5s;
     border-radius: 50px 50px 50px 50px;
 }
-
 
 h2 {
 	font-size: 40px;
@@ -143,26 +124,7 @@ h2:hover {
     font-size: 40px;
 }
 
-.fas {
-    color: rgb(203, 247, 7);
-    font-size: 70px;
-    border: 5px solid  red;
-    border-radius: 50%;
-    transition: .5s;
-    border-radius: 50px 50px 50px 50px;
-    box-shadow: 0px 0px 10px 3px rgb(231, 5, 5);
-}
-.fas:hover {
-    font-size: 75px;
-    color: red;
-    border: 4px solid  rgb(247, 227, 49);
-    border-radius: 50%;
-    transition: .5s;
-    border-radius: 50px 50px 50px 50px;
-    box-shadow: 0px 0px 10px 3px rgb(231, 193, 22);
-}
-
-.fab {
+.fab, .fas {
   
     color: rgb(203, 247, 7);
     font-size: 70px;
@@ -172,7 +134,8 @@ h2:hover {
     border-radius: 50px 50px 50px 50px;
     box-shadow: 0px 0px 10px 3px rgb(231, 5, 5);
 }
-.fab:hover {
+
+.fab:hover,.fas:hover {
     font-size: 75px;
     color: red;
     border: 4px solid  rgb(247, 227, 49);
@@ -181,10 +144,11 @@ h2:hover {
     border-radius: 50px 50px 50px 50px;
     box-shadow: 0px 0px 10px 3px rgb(231, 193, 22);
 }
+
 .btn {
     width: 200px;
     height: 80px;
-    margin: 10px;
+    margin: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 5px solid black;
     border-radius: 50px 50px 50px 50px;
@@ -201,10 +165,13 @@ h2:hover {
     color: red;
     border-radius: 50px 50px 50px 50px;
     box-shadow: 0px 0px 10px 3px rgb(231, 193, 22);
-
 }
 .row {
     margin: 15px auto;
+}
+
+span {
+    display: none;
 }
 
 
@@ -247,6 +214,7 @@ h2:hover {
         background-image: linear-gradient(315deg, #6d17cb 0%, #2876f9 74%);
     }
     .navbar {
+        width: 100vw;
         flex-direction: column;
         align-items: flex-start;
         background-color: rgb(70, 6, 6);
@@ -254,8 +222,7 @@ h2:hover {
     .get {
         color: black;
         justify-items: center;
-        float: right;
-        margin-right: 130px;
+        margin: auto 100px;
         font-size: 30px;
         font-weight: bolder;
         background-color: tomato;
@@ -269,7 +236,6 @@ h2:hover {
         text-decoration: unset;
     }
     .content {
-        
         background-color: black;
         border: 5px solid;
         -webkit-box-shadow: 20px 20px 50px 10px rgba(248, 1, 1, 0.7);
@@ -303,7 +269,7 @@ h2:hover {
         font-size: 21px;
         width: 55vw;
         flex-direction: column;
-        display:inline-block;
+        display: none;
         margin-top: 40px;
         text-align: center;
     }
@@ -313,7 +279,7 @@ h2:hover {
     #h2:hover {
         font-size: 26px;
     }
-    .fas {
+    .fab, .fas {
         color: rgb(203, 247, 7);
         font-size: 40px;
         border: 5px solid  red;
@@ -321,28 +287,9 @@ h2:hover {
         transition: .5s;
         border-radius: 50px 50px 50px 50px;
         box-shadow: 0px 0px 10px 3px rgb(231, 5, 5);
-        margin: 70px 0 70px 30px;
+        margin: 70px 0 70px 10px;
     }
-    .fas:hover {
-        font-size: 45px;
-        color: red;
-        border: 4px solid  rgb(247, 227, 49);
-        border-radius: 50%;
-        transition: .5s;
-        border-radius: 50px 50px 50px 50px;
-        box-shadow: 0px 0px 10px 3px rgb(231, 193, 22);
-    }
-    .fab {
-        color: rgb(203, 247, 7);
-        font-size: 40px;
-        border: 5px solid  red;
-        border-radius: 50%;
-        transition: .5s;
-        border-radius: 50px 50px 50px 50px;
-        box-shadow: 0px 0px 10px 3px rgb(231, 5, 5);
-        margin: 70px 0 70px 30px;
-    }
-    .fab:hover {
+    .fab:hover, .fas:hover {
         font-size: 45px;
         color: red;
         border: 4px solid  rgb(247, 227, 49);
@@ -389,6 +336,9 @@ h2:hover {
     }
     .col-md-1 {
         width: 15vw;
+    }
+    span {
+        display: initial;
     }
 }
 @media (max-width: 400px) {
