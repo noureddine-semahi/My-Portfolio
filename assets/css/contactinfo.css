@@ -179,6 +179,9 @@ h2:hover {
     -webkit-text-fill-color: black; 
     -webkit-text-stroke-width: 0.8px;
     -webkit-text-stroke-color: white;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
 }
 #get:hover {
     text-decoration: unset;
