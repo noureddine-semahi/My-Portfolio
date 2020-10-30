@@ -78,6 +78,7 @@ a {
     -webkit-text-stroke-color: black;
 }
 section {
+    position: relative;
     text-align: center;
     height: 100vh;
     background: #000;
@@ -85,20 +86,22 @@ section {
 video {
     width: 98vw;
     position: absolute;
-    top: 0%;
+    top: 0;
     left: 0;
 }
 h1 {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 55%;
+    top: 50%;
+    left: 0;
     transform: translateY(-50%);
     width: 100%;
     text-align: center;
     justify-items: center;
     color: #ddd;  
     font-size: 9em;
+    font-size: 8vw;
     font-family: 'Rubik', sans-serif;
     letter-spacing : 0.16em;
     font-weight: bold;
@@ -260,6 +263,7 @@ h1 span:nth-child(12) {
         justify-items: center;
         color: #ddd;  
         font-size: 2.3em;
+        font-size: 90vw;
         font-family: 'Rubik', sans-serif;
         letter-spacing : 0em;
         font-weight: bold;

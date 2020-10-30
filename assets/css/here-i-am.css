@@ -93,12 +93,19 @@ a {
 }
 .container-fluid {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 120px auto;
+    width: 100vw;
+    height: 100%;
+
 }
 .box {
+    display: inline-flexbox;
     height: 80vh;
-    width: 30vw;
-    padding: 20px;
-    margin: 150px auto;
+    width: 50vw;
+    
+    
     background: black;
     border: 7px solid;
     -webkit-box-shadow: 20px 20px 50px 10px rgba(248, 1, 1, 0.7);
@@ -108,13 +115,13 @@ a {
     background-image: url(../images/texas-me.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    object-fit: contain;
 }
 
 .box2 {
+    display: inline-flexbox;
     height: 80vh;
-    width: 40vw;
-    padding: 20px;
-    margin: 150px auto;
+    width: 100%;
     background: black;
     border: 7px solid;
     -webkit-box-shadow: 20px 20px 50px 10px rgba(248, 1, 1, 0.7);
@@ -124,6 +131,7 @@ a {
     background-image: url(../images/oasis.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    object-fit: contain;
 }
 
 .box:hover, .box2:hover {
@@ -217,6 +225,14 @@ a {
         background-repeat: no-repeat;
         object-fit: contain;
     
+    }
+
+    .box:hover, .box2:hover {
+        height: 100vh;
+        width: 90vw;
+        margin: 90px auto;
+        padding: 10px;
+            
     }
     
 }
