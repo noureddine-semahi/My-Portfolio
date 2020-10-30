@@ -175,20 +175,22 @@ p {
         border-radius: 50px 50px 50px 50px;
         width: 96vw;
         height: auto;
-       
+        justify-content: unset;
         margin: 90px auto;
         font-family: calibri, cursive;
         transition: .5s;
     }
     p {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-align: justify;
+        text-align: center;
         text-decoration: none;
         font-weight: none;
         color: white;
-        text-indent: 15px;
+        text-indent: 0;
         font-size: 22px;
         font-style: normal ;
         transition: .5s;
+        padding: 0;
+        margin: 0;
     }
 }
