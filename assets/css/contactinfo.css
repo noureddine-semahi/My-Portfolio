@@ -103,7 +103,7 @@ a {
     height: auto;
 	padding: 5px;
     margin: auto;
-    min-margin-top:
+    margin: 180px auto;
     font-family: calibri;
     transition: .5s;
     border-radius: 50px 50px 50px 50px;

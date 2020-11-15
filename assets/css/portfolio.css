@@ -137,7 +137,7 @@ h5 {
     -webkit-text-stroke-color: black;
     background-color: #990000;
     background-image: linear-gradient(147deg, #990000 0%, #ff0000 74%);
-    width: 100%;
+    width: 90%;
 }
 
 .card-title:hover {
@@ -202,7 +202,7 @@ p {
     }
     .col.mb-4{
         
-        max-height: 485px;
+        max-height: 400px;
         height: auto;
 
     }
