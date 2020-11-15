@@ -102,7 +102,8 @@ a {
     height: 95vh;
     height: auto;
 	padding: 5px;
-	margin: auto;
+    margin: auto;
+    min-margin-top:
     font-family: calibri;
     transition: .5s;
     border-radius: 50px 50px 50px 50px;

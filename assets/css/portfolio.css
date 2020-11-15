@@ -104,8 +104,6 @@ a {
     background-image: linear-gradient(315deg, #2876f9 0%, #6d17cb 74%);
     text-align: center;
     margin-top: 110px;
-    
-    
 }
 
 .card:hover{
@@ -124,7 +122,7 @@ h5 {
 }
 .col.mb-4{
     height: auto;
-    max-height: 520px;
+    max-height: 600px;
 }
 
 .card-title {
@@ -203,8 +201,9 @@ p {
         margin: 0px;
     }
     .col.mb-4{
+        
+        max-height: 485px;
         height: auto;
-        max-height: 385px;
 
     }
     .card:hover{
